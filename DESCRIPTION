@@ -1,13 +1,12 @@
 Package: RNASeqRmdTemplate
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: RMarkdown Template for RNA-Seq Analyses
+Version: 0.1.0
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Travis",
+           family = "Blimkie",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "travis.m.blimkie@gmail.com")
+Description: Provides an easy-to-use template for constructing RMarkdown documents summarizing RNA-Seq analyses.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
