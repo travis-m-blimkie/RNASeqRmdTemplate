@@ -1,0 +1,4 @@
+name: RNASeqRmd
+description: >
+   Personal Rmd template for RNA-Seq analyses.
+create_dir: FALSE

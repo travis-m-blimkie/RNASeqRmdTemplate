@@ -1,0 +1,104 @@
+---
+title: "Title here"
+author: "Travis Blimkie"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    fig_caption: yes
+    theme: flatly
+    highlight: kate
+    code_folding: show
+    toc: yes
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, comment = "")
+```
+
+***
+
+## Libraries
+```{r libraries}
+pkgs <- c()
+invisible(lapply(pkgs, library, character.only = TRUE))
+```
+
+<br>
+
+## Overview
+
+
+<br>
+
+## Processing Sequences
+### FastQC
+
+
+<br>
+
+### STAR
+
+
+<br>
+
+### HTSeq
+
+
+<br>
+
+## Importing Counts
+
+```{r count_matrix}
+
+```
+
+<br>
+
+### Library Sizes
+```{r library_table}
+
+```
+
+<br>
+
+## DE Analysis
+```{r deseq}
+
+```
+
+<br>
+
+### PCA
+```{r pca}
+
+```
+
+<br>
+
+### Heatmap
+```{r heatmap}
+
+```
+
+<br>
+
+### DE Genes
+```{r degenes}
+
+```
+
+<br>
+
+## Functional Analysis
+
+
+<br>
+
+***
+
+## Session Information
+```{r sessionInfo, echo = FALSE}
+sessionInfo()
+```
+
+<br>
