@@ -4,9 +4,8 @@ author: "Travis Blimkie"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
   html_document:
-    fig_caption: yes
-    theme: flatly
     highlight: kate
+    fig_caption: yes
     code_folding: show
     toc: yes
 ---
