@@ -4,6 +4,7 @@ author: "Travis Blimkie"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
   html_document:
+    theme: readable
     highlight: kate
     fig_caption: yes
     code_folding: show
