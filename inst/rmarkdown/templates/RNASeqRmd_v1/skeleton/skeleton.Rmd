@@ -13,7 +13,7 @@ output:
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
-  echo = TRUE, 
+  echo    = TRUE, 
   message = FALSE, 
   warning = FALSE, 
   comment = ""
@@ -24,8 +24,11 @@ knitr::opts_chunk$set(
 
 ## Libraries
 ```{r libraries}
-pkgs <- c()
-invisible(lapply(pkgs, library, character.only = TRUE))
+suppressPackageStartupMessages({
+	library(DESeq2)
+	library(tRavis)
+	library(tidyverse)
+})
 ```
 
 <br>
@@ -80,13 +83,6 @@ invisible(lapply(pkgs, library, character.only = TRUE))
 
 <br>
 
-### Heatmap
-```{r heatmap}
-
-```
-
-<br>
-
 ### DE Genes
 ```{r degenes}
 
@@ -95,6 +91,9 @@ invisible(lapply(pkgs, library, character.only = TRUE))
 <br>
 
 ## Functional Analysis
+```{r functional_analysis}
+
+```
 
 
 <br>
@@ -105,5 +104,3 @@ invisible(lapply(pkgs, library, character.only = TRUE))
 ```{r sessionInfo, echo = FALSE}
 sessionInfo()
 ```
-
-<br>
