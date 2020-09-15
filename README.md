@@ -9,4 +9,4 @@ devtools::install_github("https://github.com/travis-m-blimkie/RNASeqRmdTemplate"
 
 <br>
 
-Here's a [link](https://github.com/travis-m-blimkie/RNASeqRmdTemplate/blob/master/inst/rmarkdown/templates/RNASeqRmd_v1/skeleton/skeleton.Rmd) directly to the Rmd template on Github.
+Here's a [link](https://github.com/travis-m-blimkie/RNASeqRmdTemplate/blob/master/inst/rmarkdown/templates/RNASeqRmd_v1/skeleton/skeleton.Rmd) directly to the Rmd template.
