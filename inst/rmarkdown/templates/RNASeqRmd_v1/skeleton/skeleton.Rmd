@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 
 ***
 
-## Libraries
+## Load R Packages
 ```{r libraries}
 suppressPackageStartupMessages({
 	library(DESeq2)
@@ -38,24 +38,23 @@ suppressPackageStartupMessages({
 
 <br>
 
-## Processing Sequences
-### FastQC
-
-
-<br>
-
-### STAR
-
+## Quality Assessment
+### FastQC - Read Files
+![](../multiqc_data/fastqc_per_base_sequence_quality_plot.png)
 
 <br>
 
-### HTSeq
+### STAR - Alignments
+![](../multiqc_data/star_alignment_plot.png)
 
+<br>
+
+### HTSeq - Gene Counts
+![](../multiqc_data/htseq_assignment_plot.png)
 
 <br>
 
 ## Importing Counts
-
 ```{r count_matrix}
 
 ```
@@ -69,21 +68,21 @@ suppressPackageStartupMessages({
 
 <br>
 
-## DE Analysis
+## Create DESeq Objects
 ```{r deseq}
 
 ```
 
 <br>
 
-### PCA
+### Principle Component Analysis
 ```{r pca}
 
 ```
 
 <br>
 
-### DE Genes
+### Differential Expression
 ```{r degenes}
 
 ```
