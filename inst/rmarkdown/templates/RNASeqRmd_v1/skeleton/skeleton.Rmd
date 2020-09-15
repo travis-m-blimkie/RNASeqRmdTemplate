@@ -39,18 +39,24 @@ suppressPackageStartupMessages({
 <br>
 
 ## Quality Assessment
+The typical pipeline for processing RNA-Seq samples is as follows:
+
+- Check quality of fastq reads with FastQC
+- Aligned reads to the reference genome of choice with STAR
+- Count aligned reads using HTSeq's count function
+
 ### FastQC - Read Files
-![](../multiqc_data/fastqc_per_base_sequence_quality_plot.png)
+<!-- ![](../multiqc_data/fastqc_per_base_sequence_quality_plot.png) -->
 
 <br>
 
 ### STAR - Alignments
-![](../multiqc_data/star_alignment_plot.png)
+<!-- ![](../multiqc_data/star_alignment_plot.png) -->
 
 <br>
 
 ### HTSeq - Gene Counts
-![](../multiqc_data/htseq_assignment_plot.png)
+<!-- ![](../multiqc_data/htseq_assignment_plot.png) -->
 
 <br>
 
@@ -61,7 +67,7 @@ suppressPackageStartupMessages({
 
 <br>
 
-### Library Sizes
+## Library Sizes
 ```{r library_table}
 
 ```
@@ -75,14 +81,14 @@ suppressPackageStartupMessages({
 
 <br>
 
-### Principle Component Analysis
+## Principle Component Analysis
 ```{r pca}
 
 ```
 
 <br>
 
-### Differential Expression
+## Differential Expression
 ```{r degenes}
 
 ```
@@ -93,7 +99,6 @@ suppressPackageStartupMessages({
 ```{r functional_analysis}
 
 ```
-
 
 <br>
 
