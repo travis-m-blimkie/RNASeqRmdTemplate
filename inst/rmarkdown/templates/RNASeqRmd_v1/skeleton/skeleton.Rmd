@@ -106,7 +106,12 @@ The plots below are taken from the report compiled by [MultiQC](https://multiqc.
 
 ***
 
-## Session Information
+## Version Information
+- FastQC x
+- STAR x
+- htseq-count x
+- MultiQC x
+
 ```{r sessionInfo, echo = FALSE}
 sessionInfo()
 ```
