@@ -41,22 +41,24 @@ suppressPackageStartupMessages({
 ## Quality Assessment
 The typical pipeline for processing RNA-Seq samples is as follows:
 
-- Check quality of fastq reads with FastQC
-- Aligned reads to the reference genome of choice with STAR
-- Count aligned reads using HTSeq's count function
+- Check quality of fastq reads with [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+- Aligned reads to the reference genome of choice with [STAR](https://github.com/alexdobin/STAR)
+- Count aligned reads using [HTSeq's count](https://htseq.readthedocs.io/en/release_0.11.1/count.html) function
+
+The plots below are taken from the report compiled by [MultiQC](https://multiqc.info/).
 
 ### FastQC - Read Files
-<!-- ![](../multiqc_data/fastqc_per_base_sequence_quality_plot.png) -->
+<!-- ![](../multiqc_data/fastqc_per_base_sequence_quality_plot.svg) -->
 
 <br>
 
 ### STAR - Alignments
-<!-- ![](../multiqc_data/star_alignment_plot.png) -->
+<!-- ![](../multiqc_data/star_alignment_plot.svg) -->
 
 <br>
 
 ### HTSeq - Gene Counts
-<!-- ![](../multiqc_data/htseq_assignment_plot.png) -->
+<!-- ![](../multiqc_data/htseq_assignment_plot.svg) -->
 
 <br>
 
@@ -82,7 +84,7 @@ The typical pipeline for processing RNA-Seq samples is as follows:
 <br>
 
 ## Principle Component Analysis
-```{r pca}
+```{r pca, fig.width = 10, fig.height = 5, fig.align = "right"}
 
 ```
 

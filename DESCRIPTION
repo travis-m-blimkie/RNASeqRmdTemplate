@@ -1,6 +1,6 @@
 Package: RNASeqRmdTemplate
 Title: RMarkdown Template for RNA-Seq Analyses
-Version: 0.2.3
+Version: 0.2.4
 Authors@R: 
     person(given = "Travis",
            family = "Blimkie",
